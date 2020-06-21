@@ -1,0 +1,16 @@
+
+
+.animated-heading h1{
+	text-align: center;
+	color:purple;
+	font-size: 5em;
+	transition:2s ease-in-out;
+	padding-bottom: .5em;
+	border-bottom:8px solid green;
+
+	
+
+}
+.animated-heading h1:hover{
+	color:orange;
+}

@@ -1,0 +1,43 @@
+a{
+	outline: 0;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 200px;
+	width: 60%;
+	grid-row-gap:1em;
+	grid-column-gap: 1em;
+	margin-left: 13em;
+}
+.grid-container img{
+	height: 200px;
+	
+	margin:0;
+	width: 100%;
+
+}
+.hovering-list li{
+	list-style:circle;
+	cursor:progress;
+	color:grey;
+	transition:.3s ease;
+}
+.hovering-list li:hover{
+	color:orange;
+}
+
+@media all and (max-width: 1200px) {
+	.grid-container{
+	 display: inline-block;
+	
+	height: none;
+	margin:1em;
+	width:70%;
+	padding:1em;
+
+	}
+	.grid-container img{
+		margin:1em;
+	}
+}
